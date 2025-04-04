@@ -1,0 +1,42 @@
+#count{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#btncontain{
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+#increase{
+    margin-right: 20px;
+}
+
+#decrease{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+#heading{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.buttons{
+    font-size: 20px;
+    background-color: rgb(138, 238, 203);
+    border-width: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgb(255, 161, 127);
+}
