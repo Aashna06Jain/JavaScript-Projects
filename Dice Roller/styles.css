@@ -1,0 +1,38 @@
+#container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+button{
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: palevioletred;
+    color: white;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+button:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+input{
+    font-size: 15px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#diceResult{
+    margin: 25px;
+}
+
+#diceImages img{
+    width: 150px;
+    margin: 5px;
+}
